@@ -1,5 +1,6 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ include file = "header.jsp" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +28,7 @@
         });
     </script>
 </head>
-<%@ include file = "header.jsp" %>
+
 
 <body>
 <!--<form:form commandName="user" method="post" action="addUser">-->
@@ -110,7 +111,8 @@
 
 <br>
    <br>
-   <%@ include file = "footer.jsp" %>
+   
    
 </body>
 </html>
+<%@ include file = "footer.jsp" %>

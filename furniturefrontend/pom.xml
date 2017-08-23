@@ -7,6 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>furniturefrontend Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -14,7 +15,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-
+ <!-- =========BackEND POM-======= -->
+<!--   <dependency>
+    <groupId>com.niit</groupId>
+  <artifactId>furniturebackend</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  </dependency> -->
    <!--============ spring dependencies============-->
 <!--org.springframework/spring-context -->
 <dependency>

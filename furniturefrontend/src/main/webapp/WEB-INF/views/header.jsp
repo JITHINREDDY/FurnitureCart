@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link href="/css/navbar.css" rel="stylesheet" type="text/css">
-<title>Insert title here</title>
+<title>Furniture Cart</title>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">

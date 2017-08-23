@@ -1,4 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
+<%@ include file = "header.jsp" %>
+
 <html lang="en">
 <head>
   <title>Furniture Cart</title>
@@ -15,7 +17,6 @@
   <link href="/css/indexcss.css" rel="stylesheet" type="text/css">
  
 </head>
-<%@ include file = "header.jsp" %>
 
 <body>
 <div class="container">
@@ -67,5 +68,6 @@
 <br>
 <br>
 
-<%@ include file = "footer.jsp" %>
 </html>
+
+<%@ include file = "footer.jsp" %>

@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
 	
+	HomeController()
+	{
+		System.out.println("This is INSTANCE");
+	}
 
 		@RequestMapping("/")
 		public String homePage()
@@ -29,6 +33,11 @@ public class HomeController {
 		public String aboutUs()
 		{
 			return "aboutus";
+		}
+		@RequestMapping("/signup")
+		public String signUp()
+		{
+			return "signup";
 		}
 		
 //		@RequestMapping("/signup")
