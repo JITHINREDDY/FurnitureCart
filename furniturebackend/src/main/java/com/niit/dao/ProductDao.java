@@ -1,5 +1,14 @@
 package com.niit.dao;
 
-public class ProductDao {
+import java.util.List;
 
+import com.niit.model.Product;
+
+public interface ProductDao 
+{
+
+	void saveProduct(Product product);
+	List<Product> getAllProducts();
+	Product getProductById(int id);
+	void deleteProduct(Product product);
 }
