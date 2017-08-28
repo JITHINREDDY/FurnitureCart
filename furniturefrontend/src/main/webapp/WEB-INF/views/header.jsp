@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
+    <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -36,11 +39,13 @@
             <li><a href="#">Category 3</a></li>
             <li class="divider"></li>
             <li><a href="#">Add Category</a></li>
+            
             <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="getproductform">Add Product</a></li>
           </ul>
         </li>
-        <li><a href="#">Portfolio</a></li>
+        <c:url value="/all/product/getallproducts" var="url1"></c:url>
+        <li><a href="${url1 }">Browse all Products</a></li>
         <li><a href="signup">Signup</a></li>
         <li><a href="login">Login</a></li>
         

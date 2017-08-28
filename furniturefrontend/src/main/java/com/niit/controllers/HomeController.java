@@ -40,6 +40,18 @@ public class HomeController {
 			return "signup";
 		}
 		
+		@RequestMapping("/productform")
+		public String productform()
+		{
+			return "productform";
+		}
+		
+		@RequestMapping("/success")
+		public String success()
+		{
+			return "success";
+		}
+		
 //		@RequestMapping("/signup")
 //		public String signup()
 //		{
